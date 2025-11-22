@@ -1,3 +1,4 @@
 baseURL = 'https://henrik.net/'
 languageCode = 'en-us'
 title = 'Henrik zu Jeddeloh'
+enableGitInfo = true

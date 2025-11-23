@@ -1,0 +1,30 @@
+{
+  "htmlElements": {
+    "tags": [
+      "a",
+      "body",
+      "footer",
+      "h1",
+      "h2",
+      "h3",
+      "head",
+      "header",
+      "hr",
+      "html",
+      "main",
+      "meta",
+      "nav",
+      "p",
+      "script",
+      "time",
+      "title"
+    ],
+    "classes": null,
+    "ids": [
+      "about-me",
+      "blog",
+      "hi-im-henrik",
+      "latest-posts"
+    ]
+  }
+}

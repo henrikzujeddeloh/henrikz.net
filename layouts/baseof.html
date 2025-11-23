@@ -3,6 +3,10 @@
 
 <head>
     <title>{{ .Title }}</title>
+
+    {{ with (templates.Defer (dict "key" "global")) }}
+    {{ partial "css.html" . }}
+    {{ end }}
 </head>
 
 <body>

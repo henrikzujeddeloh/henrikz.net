@@ -2,6 +2,11 @@ baseURL = 'https://henrik.net/'
 languageCode = 'en-us'
 title = 'Henrik zu Jeddeloh'
 enableGitInfo = true
+rssLimit = 24
+
+[minify]
+minifyOutput = true
+
 [build]
   [build.buildStats]
     enable = true

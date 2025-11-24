@@ -1,10 +1,14 @@
 {{ define "main" }}
-{{ .Content }}
-<hr></hr>
-{{ range where .Site.Pages.ByPublishDate "Params.layout" "post" }}
-<h3><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
-<time>{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
-<p>{{ .Params.description }}</p>
-<hr></hr>
-{{ end }}
+<div class="max-w-screen-md mx-auto">
+    {{ .Content }}
+    <hr>
+    </hr>
+    {{ range where .Site.Pages.ByPublishDate "Params.layout" "post" }}
+    <h3><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
+    <time>{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
+    <p>{{ .Params.description }}</p>
+    <hr>
+    </hr>
+    {{ end }}
+</div>
 {{ end }}

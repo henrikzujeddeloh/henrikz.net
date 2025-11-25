@@ -4,11 +4,11 @@
     <h2 class="space-y-4">Latest</h2>
     <ul>
         {{ range first 5 (where .Site.Pages.ByPublishDate "Params.layout" "post") }}
-        <li class="w-full flex-col">
+        <li class="w-full flex-col mb-4">
             <a href="{{ .RelPermalink }}" class="block group border hover:outline p-2">
                 <div class="flex justify-between">
                     <span class="group-hover:underline font-semibold">{{ .LinkTitle }}</span>
-                    <time>{{ .Date.Format "2006-01-02" }}</time>
+                    <time>{{ .PublishDate.Format "2006-01-02" }}</time>
                 </div>
                 <p>{{ .Params.description }}</p>
             </a>

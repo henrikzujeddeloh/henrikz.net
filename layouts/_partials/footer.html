@@ -1,5 +1,12 @@
-<footer>
-    <p>Last updated: {{ .Site.Lastmod | time.Format "2006-01-02" }}</p>
-    &copy;2026-
-    <script type="text/JavaScript"> document.write(new Date().getFullYear()); </script> Henrik zu Jeddeloh
+<footer class="py-6 flex flex-col items-center justify-center space-y-1 text-sm text-slate-600 font-light">
+    <div>
+        Last updated: {{ .Site.Lastmod | time.Format "2006-01-02" }}
+    </div>
+    <div>
+        Powered by Hugo - Self-hosted with <3
+    </div>
+    <div>
+        &copy;2026-
+        <script type="text/JavaScript"> document.write(new Date().getFullYear()); </script> Henrik zu Jeddeloh
+    </div>
 </footer>

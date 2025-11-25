@@ -17,14 +17,19 @@
     {{ end }}
 </head>
 
-<body>
-    {{ partial "header.html" . }}
-    <main>
-        {{ block "main" . }}
-        {{ end }}
-    </main>
-    {{ partial "footer.html" . }}
+<body class="max-w-screen-md mx-auto">
+    <div class="flex">
+        {{ partial "navbar.html" . }}
+        <div class="ml-32 p-4">
+            {{ partial "header.html" . }}
+            <main>
+                {{ block "main" . }}
+                {{ end }}
+            </main>
+            {{ partial "footer.html" . }}
+        </div>
 
+    </div>
 </body>
 
 </html>

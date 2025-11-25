@@ -1,6 +1,41 @@
 @import "tailwindcss";
 @source "hugo_stats.json";
 
+@font-face {
+    font-family: Jost;
+    src: url('/fonts/Jost-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Jost;
+    src: url('/fonts/Jost-Bold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Jost;
+    src: url('/fonts/Jost-Italic.woff2') format('woff2');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Jost;
+    src: url('/fonts/Jost-BoldItalic.woff2') format('woff2');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+@theme {  --font-display: "Jost", sans-serif; }
+
 h1 {
 @apply text-3xl font-bold;
 }

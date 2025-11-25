@@ -3,8 +3,6 @@ title = 'Henrik zu Jeddeloh'
 type = 'home'
 +++
 # Hi, I'm Henrik!
-
-## Latest posts
 asdfaaaa aaauaa sd lkfjal ö sdkjf ölas kdjfl öaksdjf ölka sdjfö lkasjd fölkasj dkfjasöl dkfjöasl kdfjöalskdjf ölaksdjfölak sjdflaksj döflaks djfölaksjd fölaksjdfölk asjdölf kasjdölfkaj södlfkajs dölkf jasö ldk fj
 a
 

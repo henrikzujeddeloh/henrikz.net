@@ -3,14 +3,13 @@ type = 'page'
 layout = 'post'
 date = '2025-11-25T21:41:28+01:00'
 draft = true
-title = 'Hello World'
+title = 'Hello, World!'
 slug = 'hello-world'
 lastmod = '2025-11-25T21:41:28+01:00'
 tags = []
 description = 'This is a description for the hello world blog post. It is the first blog post on my personal website!'
 publishDate = ''
 +++
-# Hello, World!
 This is a test note to see how the table of contents is rendered asdf asd fa sdf as df afas df asd fa sd fa sdf as df as df asd fa sdf as df a
 asdf asd fas
 dfa sdfa sdf asdfasd f asdf asd fa sdf asd fa sdf as dfa sdf asd fas df asdf asd fa sdf asdf

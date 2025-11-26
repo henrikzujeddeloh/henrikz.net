@@ -1,4 +1,17 @@
 {{ define "main" }}
+<h1>{{ .Title }}</h1>
+<div class="text-sm mb-1">
+    Published {{ .PublishDate.Format "January 2, 2006" }}
+{{ if .Lastmod.After .PublishDate }}
+     </div>
+<div class="text-sm mb-1">
+Updated {{ .Lastmod.Format "January 2, 2006" }}
+    </div>
+{{ end }}
+<div class="text-sm mb-4">
+    {{ .ReadingTime }} min. read
+</div>
+<hr class="mb-4"></hr>
 <div>
     {{ .Content }}
 </div>

@@ -2,9 +2,17 @@
 <div>
     {{ .Content }}
     {{ range where .Site.Pages.ByPublishDate "Params.layout" "post" }}
-    <h3><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
-    <time>{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
-    <p>{{ .Params.description }}</p>
+    <ul>
+        <li class="w-full flex-col mb-4 cursor-pointer" onclick="window.location=' {{ .RelPermalink }}'">
+            <div class="block group border hover:outline p-2 hover:italic">
+                <div class="flex justify-between">
+                    <span class="font-semibold underline">{{ .LinkTitle }}</span>
+                    <time class="not-italic font-mono">{{ .PublishDate.Format "2006-01-02" }}</time>
+                </div>
+                <p>{{ .Params.description }}</p>
+            </div>
+        </li>
+    </ul>
     {{ end }}
 </div>
 {{ end }}

@@ -7,7 +7,7 @@ title = 'Hello World'
 slug = 'hello-world'
 lastmod = '2025-11-25T21:41:28+01:00'
 tags = []
-description = ''
+description = 'This is a description for the hello world blog post. It is the first blog post on my personal website!'
 publishDate = ''
 +++
 # Hello, World!

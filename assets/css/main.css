@@ -36,14 +36,51 @@
 
 @theme {  --font-display: "Jost", sans-serif; }
 
+p {
+    @apply text-base mb-4;
+}
+
 h1 {
-@apply text-3xl font-bold;
+    @apply text-3xl font-bold;
 }
 
 h2 {
-@apply text-2xl font-bold;
+    @apply text-2xl font-bold;
 }
 
 h3 {
-@apply text-xl font-bold;
+    @apply text-xl font-bold;
+}
+
+h3 {
+    @apply text-lg font-bold;
+}
+
+h4 {
+    @apply text-base font-bold;
+}
+
+/* ul { */
+/*     @apply list-disc pl-4 mt-2; */
+/* } */
+/**/
+/* ol { */
+/*     @apply list-decimal pl-4 mt-2; */
+/* } */
+
+
+#TableOfContents ul {
+    @apply space-y-4 list-none;
+}
+
+#TableOfContents ul ul {
+    @apply pl-4 space-y-2 mt-2;
+}
+
+#TableOfContents > ul > li > a {
+    @apply font-semibold;
+}
+
+#TableOfContents a {
+    @apply hover:underline;
 }

@@ -4,7 +4,7 @@
     {{ range where .Site.Pages.ByPublishDate "Params.layout" "post" }}
     <ul>
         <li class="w-full flex-col mb-4 cursor-pointer" onclick="window.location=' {{ .RelPermalink }}'">
-            <div class="block group border hover:outline p-2 hover:italic">
+            <div class="block group border hover:outline p-2">
                 <div class="flex justify-between">
                     <span class="font-semibold underline">{{ .LinkTitle }}</span>
                     <time class="not-italic font-mono">{{ .PublishDate.Format "2006-01-02" }}</time>

@@ -1,6 +1,14 @@
 <header>
-    <div class="flex items-center gap-4 font-semibold mb-4">
-        <img class="w-10 h-10" src="/logo.svg">
-        Henrik zu Jeddeloh
+    <div class="flex items-center gap-2 mb-4 font-semibold">
+        <img class="w-10 h-10 cursor-pointer" onclick="window.location='/'" src="/logo.svg">
+        {{ range .Ancestors.Reverse }}
+        <div>
+            <a class="font-normal" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+        </div>
+        <div class="font-normal">/</div>
+        {{ end }}
+        <div>
+            <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+        </div>
     </div>
 </header>

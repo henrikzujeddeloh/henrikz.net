@@ -28,7 +28,7 @@ fi
 printf -v next_num "%03d" $((10#$highest_num + 1))
 
 # Create the filename
-filename="${next_num}_${note_title}.md"
+filename="${next_num}_${note_title}"
 
 # Create the file
 hugo new content -k blog "$NOTE_DIR/$filename/index.md"

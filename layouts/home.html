@@ -4,29 +4,7 @@
     <h2 class="space-y-4">Latest</h2>
     <div>
         {{ range first 5 (where .Site.Pages.ByPublishDate "Params.layout" "post") }}
-        <div class="w-full flex-col mb-4 cursor-pointer" onclick="window.location=' {{ .RelPermalink }}'">
-            <div class="block group border hover:outline p-2">
-                <div class="flex justify-between">
-                    <span class="font-semibold underline">{{ .LinkTitle }}</span>
-                    <time class="not-italic font-mono">{{ .PublishDate.Format "2006-01-02" }}</time>
-                </div>
-                <div class="mb-2">{{ .Params.description }}</div>
-                <div class="flex justify-between">
-                    <div class="flex space-x-2">
-                        {{ with .GetTerms "tags" }}
-                        {{ range . }}
-                        <div class="outline rounded-sm outline-offset-1 text-sm cursor-pointer hover:bg-neutral-100 py-0 px-0.5"
-                            onclick="window.location='{{ .Permalink }}'; event.stopPropagation();">#{{ .Title }}</a>
-                        </div>
-                        {{ end }}
-                        {{ end }}
-                    </div>
-                    <div class="text-sm">
-                        {{ .ReadingTime }} min. read
-                    </div>
-                </div>
-            </div>
-        </div>
+        {{ partial "blog_card.html" . }}
         {{ end }}
     </div>
 </div>

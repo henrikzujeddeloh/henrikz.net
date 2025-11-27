@@ -68,13 +68,13 @@ h4 {
     @apply text-base;
 }
 
-/* ul { */
-/*     @apply list-disc pl-4 mt-2; */
-/* } */
-/**/
-/* ol { */
-/*     @apply list-decimal pl-4 mt-2; */
-/* } */
+main ul {
+    @apply list-disc pl-4 mb-2;
+}
+
+main ol {
+    @apply list-decimal pl-4 mb-2;
+}
 
 
 #TableOfContents ul {

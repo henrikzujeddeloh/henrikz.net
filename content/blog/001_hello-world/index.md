@@ -11,3 +11,7 @@ description = 'This is a description for the hello world blog post. It is the fi
 publishDate = ''
 +++
 
+This is a list of reasons why I didn't want to start a blog:
+- people dont care
+- i wont stick to it
+- more reasons

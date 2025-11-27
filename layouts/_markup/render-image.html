@@ -1,0 +1,5 @@
+<figure>
+    <img src="{{ .Destination | safeURL }}" class="mx-auto" {{- with .PlainText }} alt="{{ . }}" {{ end -}} {{- with
+        .Title }} width="{{ . }}" {{ end -}}>
+    {{- with .PlainText }}<figcaption class="text-center w-full mt-2">{{ . }}</figcaption>{{ end -}}
+</figure>

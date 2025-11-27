@@ -31,7 +31,7 @@ printf -v next_num "%03d" $((10#$highest_num + 1))
 filename="${next_num}_${note_title}.md"
 
 # Create the file
-hugo new content -k blog "$NOTE_DIR/$filename"
+hugo new content -k blog "$NOTE_DIR/$filename/index.md"
 
 # Optional: Open the file in default editor
 # Uncomment the line below if you want to open the file after creation

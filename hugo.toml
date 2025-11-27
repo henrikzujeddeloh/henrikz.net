@@ -4,8 +4,8 @@ title = 'Henrik zu Jeddeloh'
 enableGitInfo = true
 rssLimit = 24
 
-# [minify]
-# minifyOutput = true
+[minify]
+minifyOutput = true
 
 [markup]
   [markup.tableOfContents]

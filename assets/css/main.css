@@ -1,6 +1,10 @@
 @import "tailwindcss";
 @source "hugo_stats.json";
 
+html {
+    font-size: 18px;
+}
+
 @font-face {
     font-family: Jost;
     src: url('/fonts/Jost-Regular.woff2') format('woff2');
@@ -34,14 +38,24 @@
 }
 
 
-@theme {  --font-display: "Jost", sans-serif; }
+@theme {  
+    --font-display: "Jost", sans-serif; 
+    --text-xs: 14px;
+    --text-sm: 16px;
+    --text-base: 18px;
+    --text-lg: 20px;
+    --text-xl: 24px;
+    --text-2xl: 30px;
+    --text-3xl: 36px;
+    --text-4xl: 48px;
+}
 
 a {
     @apply underline hover:bg-neutral-100;
 }
 
 p {
-    @apply text-base mb-4;
+    @apply mb-4;
 }
 
 h1, h2, h3, h4 {

@@ -3,7 +3,7 @@
     {{ .Content }}
     <h2 class="space-y-4">Latest</h2>
     <div>
-        {{ range first 5 (where .Site.Pages.ByPublishDate "Params.layout" "post") }}
+        {{ range first 5 (where .Site.Pages.ByPublishDate.Reverse "Params.layout" "post") }}
         {{ partial "blog_card.html" . }}
         {{ end }}
     </div>

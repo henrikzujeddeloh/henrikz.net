@@ -1,8 +1,16 @@
 {{ define "main" }}
 <div>
     <h1 class="text-2xl font-bold mb-4">Posts tagged with "{{ .Title }}"</h1>
-    {{ range .Pages }}
-    {{ partial "blog_card.html" . }}
-    {{ end }}
+    <div>
+        {{ range .Pages.GroupByPublishDate "2006" }}
+        <div class="sticky top-0 flex items-center gap-2 bg-white p-1 mb-1">
+            <h3 class="text-2xl font-semibold">{{ .Key }}</h3>
+            <p>({{ .Pages | len }} posts)</p>
+        </div>
+        {{ range .Pages }}
+        {{ partial "blog_card.html" . }}
+        {{ end }}
+        {{ end }}
+    </div>
 </div>
 {{ end }}

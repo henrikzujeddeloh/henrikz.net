@@ -11,6 +11,9 @@ minifyOutput = true
   [markup.tableOfContents]
     endLevel = 4
 
+[taxonomies]
+  tag = "tags"
+
 [build]
   [build.buildStats]
     enable = true

@@ -7,7 +7,7 @@ if [ $# -eq 0 ]; then
 fi
 
 # Directory where notes are stored (change this to your preferred directory)
-NOTE_DIR="content/blog"
+NOTE_DIR="content/writing"
 
 # Replace spaces with hyphens in the note title
 note_title=$(echo "$1" | sed 's/ /-/g')
@@ -31,7 +31,7 @@ printf -v next_num "%03d" $((10#$highest_num + 1))
 filename="${next_num}_${note_title}"
 
 # Create the file
-hugo new content -k blog "$NOTE_DIR/$filename/index.md"
+hugo new content -k writing "$NOTE_DIR/$filename/index.md"
 
 # Optional: Open the file in default editor
 # Uncomment the line below if you want to open the file after creation

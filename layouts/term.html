@@ -8,7 +8,7 @@
             <p>({{ .Pages | len }} posts)</p>
         </div>
         {{ range .Pages }}
-        {{ partial "blog_card.html" . }}
+        {{ partial "card.html" . }}
         {{ end }}
         {{ end }}
     </div>

@@ -1,5 +1,6 @@
 {{ define "main" }}
 <div>
+    <h1>{{ .Title }}</h1>
     {{ .Content }}
     <div>
         {{ range (where .Site.Pages "Params.layout" "post").GroupByPublishDate "2006" }}
@@ -8,7 +9,7 @@
             <p>({{ .Pages | len }} posts)</p>
         </div>
         {{ range .Pages }}
-        {{ partial "blog_card.html" . }}
+        {{ partial "card.html" . }}
         {{ end }}
         {{ end }}
     </div>

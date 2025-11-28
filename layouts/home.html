@@ -4,7 +4,7 @@
     <h2 class="space-y-4">Latest</h2>
     <div>
         {{ range first 5 .Site.Pages.ByPublishDate.Reverse }}
-        {{ partial "blog_card.html" . }}
+        {{ partial "card.html" . }}
         {{ end }}
     </div>
 </div>

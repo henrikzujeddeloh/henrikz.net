@@ -59,7 +59,7 @@ p {
 }
 
 h1, h2, h3, h4 {
-    @apply font-bold mb-4;
+    @apply font-bold mt-4 mb-2;
 }
 
 h1 {

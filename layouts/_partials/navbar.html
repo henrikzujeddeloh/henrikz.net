@@ -4,7 +4,10 @@
             <a {{ if eq .Path "/" }} class="font-semibold" {{ end }} href="/">Home</a>
         </li>
         <li>
-            <a {{ if (hasPrefix .Path "/blog") }} class="font-semibold" {{ end }} href="/blog/">Blog</a>
+            <a {{ if (hasPrefix .Path "/writing") }} class="font-semibold" {{ end }} href="/writing/">Writing</a>
+        </li>
+        <li>
+            <a {{ if eq .Path "/reading" }} class="font-semibold" {{ end }} href="/reading/">Reading</a>
         </li>
         <li>
             <a {{ if eq .Path "/about" }} class="font-semibold" {{ end }} href="/about/">About</a>
@@ -13,8 +16,9 @@
 </nav>
 
 <nav class="md:hidden p-4 space-x-2">
-    <a href="/">Home</a>
-    <a href="/blog/">Blog</a>
-    <a href="/about/">About</a>
-    <a href="/more/">More</a>
+    <a {{ if eq .Path "/" }} class="font-semibold" {{ end }} href="/">Home</a>
+    <a {{ if (hasPrefix .Path "/writing") }} class="font-semibold" {{ end }} href="/writing/">Writing</a>
+    <a {{ if eq .Path "/reading" }} class="font-semibold" {{ end }} href="/reading/">Reading</a>
+    <a {{ if eq .Path "/about" }} class="font-semibold" {{ end }} href="/about/">About</a>
+    <a {{ if eq .Path "/more" }} class="font-semibold" {{ end }} href="/more/">More</a>
 </nav>

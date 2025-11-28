@@ -5,13 +5,15 @@
 </hr>
 {{ .Content }}
 
-{{ range .Site.Data.reading }}
-{{ if .post }}
-<a href="{{ .post }}">{{ .title }} by {{ .author }}</a>
-{{ else }}
-{{ .title }} by {{ .author }}
-{{ end }}
-{{ end }}
+<div class="flex-col">
+    {{ range sort .Site.Data.reading "date_read" "desc" }}
+    {{ if .post }}
+    <a href="{{ .post }}">{{ .title }} by {{ .author }}</a>
+    {{ else }}
+    <div>{{ .title }} by {{ .author }}</div>
+    {{ end }}
+    {{ end }}
+</div>
 
 <hr class="mb-4">
 </hr>

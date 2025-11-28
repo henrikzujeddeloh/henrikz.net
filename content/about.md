@@ -2,7 +2,8 @@
 title = 'About Me'
 type = 'page'
 date = '2025-11-27'
-publishDate = '2025-11-27'
-whatChanged = 'More content'
+description = 'Find out more about me and this site.'
+publishDate = '2025-11-28'
+whatChanged = ''
 +++
 I am Henrik.

@@ -49,6 +49,9 @@ html {
     a {
         @apply hover:bg-creme-950;
     }
+    hr {
+        @apply my-4 border-creme-300;
+    }
 }
 
 @media (prefers-color-scheme: light) {
@@ -60,6 +63,9 @@ html {
     }
     a {
         @apply hover:bg-creme-100;
+    }
+    hr {
+        @apply my-4 border-creme-800;
     }
 }
 
@@ -84,6 +90,7 @@ html {
     --color-creme-800: #989896;
     --color-creme-900: #8C8C8B;
     --color-creme-950: #808080;
+    --color-selection: #F5F8FF;
     }
 
 a {
@@ -95,27 +102,27 @@ p {
 }
 
 h1, h2, h3, h4 {
-    @apply font-bold mt-4 mb-2;
+    @apply font-bold mb-2;
 }
 
 h1 {
-    @apply text-3xl;
+    @apply text-3xl mt-4;
 }
 
 h2 {
-    @apply text-2xl;
+    @apply text-2xl mt-8;
 }
 
 h3 {
-    @apply text-xl;
+    @apply text-xl mt-8;
 }
 
 h3 {
-    @apply text-lg;
+    @apply text-lg mt-8;
 }
 
 h4 {
-    @apply text-base;
+    @apply text-base mt-8;
 }
 
 main ul {

@@ -1,21 +1,26 @@
 {{ define "main" }}
 
 <h1>{{ .Title }}</h1>
-<hr class="mb-4">
+<hr>
 </hr>
 {{ .Content }}
 
-<div class="flex-col">
+<div class="divide-y">
     {{ range sort .Site.Data.reading "date_read" "desc" }}
-    {{ if .post }}
-    <a href="{{ .post }}">{{ .title }} by {{ .author }}</a>
-    {{ else }}
-    <div>{{ .title }} by {{ .author }}</div>
-    {{ end }}
+    <div class="grid lg:grid-cols-6 grid-cols-1 gap-4 px-1 py-2">
+        {{ if .post }}
+        <a class="col-span-2" href="{{ .post }}">{{ .title }}</a>
+        {{ else }}
+        <div class="col-span-2">{{ .title }}</div>
+        {{ end }}
+        <div class="col-span-2">{{ .author }}</div>
+        {{ partial "rating.html" .rating }}
+        <time class="justify-self-end">{{ .date_read }}</time>
+    </div>
     {{ end }}
 </div>
 
-<hr class="mb-4">
+<hr>
 </hr>
 {{ if gt (.Lastmod.Format "2006-01-02") (.PublishDate.Format "2006-01-02") }}
 <div class="text-sm mb-1">

@@ -1,11 +1,11 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
-<hr class="mb-4">
+<hr>
 </hr>
 <div>
     {{ .Content }}
 </div>
-<hr class="mb-4">
+<hr>
 </hr>
 {{ if gt (.Lastmod.Format "2006-01-02") (.PublishDate.Format "2006-01-02") }}
 <div class="text-sm mb-1">

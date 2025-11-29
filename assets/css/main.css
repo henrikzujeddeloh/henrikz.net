@@ -41,19 +41,25 @@ html {
 
 @media (prefers-color-scheme: dark) {
     body {
-        @apply bg-neutral-800 text-creme;
+        @apply bg-neutral-800 text-creme-50;
     }
     footer {
-        @apply text-neutral-400
+        @apply text-creme-300
+    }
+    a {
+        @apply hover:bg-creme-950;
     }
 }
 
 @media (prefers-color-scheme: light) {
     body {
-        @apply bg-creme text-neutral-800;
+        @apply bg-creme-50 text-neutral-800;
     }
     footer {
-        @apply text-neutral-600
+        @apply text-creme-800;
+    }
+    a {
+        @apply hover:bg-creme-100;
     }
 }
 
@@ -67,12 +73,21 @@ html {
     --text-2xl: 30px;
     --text-3xl: 36px;
     --text-4xl: 48px;
-    --color-creme: #FFFEF5;
-    --color-dark-creme: #494200;
-}
+    --color-creme-50: #FFFCF5;
+    --color-creme-100: #F2EFE9;
+    --color-creme-200: #E4E2DD;
+    --color-creme-300: #D7D5D0;
+    --color-creme-400: #CAC9C5;
+    --color-creme-500: #BEBCB9;
+    --color-creme-600: #B1B0AD;
+    --color-creme-700: #A4A4A2;
+    --color-creme-800: #989896;
+    --color-creme-900: #8C8C8B;
+    --color-creme-950: #808080;
+    }
 
 a {
-    @apply underline hover:bg-neutral-100;
+    @apply underline;
 }
 
 p {

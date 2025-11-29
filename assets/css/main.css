@@ -1,7 +1,7 @@
 @import "tailwindcss";
 @source "hugo_stats.json";
 
-@custom-variant dark (&:where(.dark, .dark *));
+/* @custom-variant dark (&:where(.dark, .dark *)); */
 
 html {
     font-size: 18px;
@@ -13,6 +13,7 @@ html {
     font-weight: 400;
     font-style: normal;
     font-display: swap;
+    unicode-range: U+0000-00FF;
 }
 
 @font-face {
@@ -46,6 +47,9 @@ html {
     footer {
         @apply text-creme-300
     }
+    svg {
+        @apply fill-creme-50 stroke-creme-50;
+    }
     a {
         @apply hover:bg-creme-950;
     }
@@ -60,6 +64,9 @@ html {
     }
     footer {
         @apply text-creme-800;
+    }
+    svg {
+        @apply fill-neutral-800 stroke-neutral-800;
     }
     a {
         @apply hover:bg-creme-100;

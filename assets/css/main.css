@@ -1,6 +1,8 @@
 @import "tailwindcss";
 @source "hugo_stats.json";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 html {
     font-size: 18px;
 }
@@ -37,6 +39,23 @@ html {
     font-display: swap;
 }
 
+@media (prefers-color-scheme: dark) {
+    body {
+        @apply bg-neutral-800 text-creme;
+    }
+    footer {
+        @apply text-neutral-400
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+        @apply bg-creme text-neutral-800;
+    }
+    footer {
+        @apply text-neutral-600
+    }
+}
 
 @theme {  
     --font-display: "Jost", sans-serif; 
@@ -48,6 +67,8 @@ html {
     --text-2xl: 30px;
     --text-3xl: 36px;
     --text-4xl: 48px;
+    --color-creme: #FFFEF5;
+    --color-dark-creme: #494200;
 }
 
 a {

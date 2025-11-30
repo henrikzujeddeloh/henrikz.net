@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-rsync -r ./public henrik@henrikz.net:/home/henrik/docker/caddy/data/
+rsync -r --delete ./public henrik@henrikz.net:/home/henrik/docker/caddy/data/

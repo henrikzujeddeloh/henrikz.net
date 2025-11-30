@@ -1,11 +1,17 @@
-baseURL = 'https://henrik.net/'
+baseURL = 'https://test.henrikz.net/'
 languageCode = 'en-us'
 title = 'Henrik zu Jeddeloh'
 enableGitInfo = true
 rssLimit = 24
 
+[outputs]
+  home = ['html']
+  section = ['html']
+  taxonomy = ['html']
+  term = ['html']
+
 [minify]
-minifyOutput = true
+  minifyOutput = true
 
 [markup]
   [markup.tableOfContents]

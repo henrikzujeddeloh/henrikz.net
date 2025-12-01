@@ -7,7 +7,7 @@
 
 <div class="divide-y">
     {{ range sort .Site.Data.reading "date_read" "desc" }}
-    <div class="grid lg:grid-cols-6 grid-cols-1 gap-4 px-1 py-2">
+    <div class="grid lg:grid-cols-6 grid-cols-1 gap-4 px-1 py-2 items-center">
         {{ if .post }}
         <a class="col-span-2" href="{{ .post }}">{{ .title }}</a>
         {{ else }}

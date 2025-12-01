@@ -6,4 +6,4 @@ description = 'Find out more about me and this site.'
 publishDate = '2025-11-28'
 whatChanged = ''
 +++
-I am Henrik.
+Hello, I am Henrik. 

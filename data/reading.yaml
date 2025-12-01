@@ -1,9 +1,354 @@
-- title: Deep Work
-  author: Cal Newport
-  rating: 5
-  date_read: 2021-11-22
+- title: East of Eden
+  author: John Steinbeck
+  rating: 2.5
+  date_read: 2025-11-16
+
+- title: Dead in the Water
+  author: Kit Chellel and Matthew Campbell
+  rating: 3.0
+  date_read: 2025-10-25
+
+- title: The Snowman
+  author: Jo Nesbo
+  rating: 3.0
+  date_read: 2025-05-15
+
+- title: 4000 Weeks
+  author: Oliver Burkeman
+  rating: 4.0
+  date_read: 2025-05-25
+
+- title: Blink
+  author: Malcom Gladwell
+  rating: 3.0
+  date_read: 2025-05-06
+
+- title: 22 Bahnen
+  author: Caroline Wahl
+  rating: 3.5
+  date_read: 2025-03-23
+
+- title: Yellowface
+  author: R.F. Kuang
+  rating: 2.5
+  date_read: 2025-03-04
+
+- title: Utopia for Realists
+  author: Rutger Bregman
+  rating: 3.0
+  date_read: 2025-02-28
+
+- title: American Gods
+  author: Neil Gaiman
+  rating: 2.5
+  date_read: 2025-01-30
+
+- title: Kaput
+  author: Wolfgang Münchau
+  rating: 4.0
+  date_read: 2025-01-07
+
+- title: The Trading Game
+  author: Gary Stevenson
+  rating: 4.0
+  date_read: 2024-12-30
+
+- title: Nexus
+  author: Yuval Noah Harari
+  rating: 4.0
+  date_read: 2024-11-19
+
+- title: Vom Ende der Einsamkeit
+  author: Benedict Wells
+  rating: 3.0
+  date_read: 2024-10-29
+
+- title: Burn Book
+  author: Kara Swisher
+  rating: 2.5
+  date_read: 2024-10-21
+
+- title: The Obstacle is the Way
+  author: Ryan Holiday
+  rating: 5.0
+  date_read: 2024-10-10
+
+- title: The Inevitable
+  author: Kevin Kelly
+  rating: 3.0
+  date_read: 2024-09-09
+
+- title: Schachnovelle
+  author: Stefan Zweig
+  rating: 1.5
+  date_read: 2024-08-24
+
+- title: The Three-Body Problem
+  author: Liu Cixin
+  rating: 2.0
+  date_read: 2024-08-22
+
+- title: Kafka on the Shore
+  author: Haruki Murakami
+  rating: 4.0
+  date_read: 2024-07-30
+
+- title: How the World Really Works
+  author: Vaclav Smil
+  rating: 4.0
+  date_read: 2024-06-20
+
+- title: The Offing
+  author: Benjamin Myers
+  rating: 4.0
+  date_read: 2024-06-05
+
+- title: Fear and Loathing in Las Vagas
+  author: Hunter S. Thomson
+  rating: 2.0
+  date_read: 2024-05-30
+
+- title: Leonardo da Vinci
+  author: Walter Isaacson
+  rating: 3.0
+  date_read: 2024-05-21
+
+- title: The Algebra of Wealth
+  author: Scott Galloway
+  rating: 2.5
+  date_read: 2024-05-16
+
+- title: Slaughterhouse Five
+  author: Kurt Vonnegut
+  rating: 3.0
+  date_read: 2024-05-01
+
+- title: Wer bin ich- und wenn ja, wie viele?
+  author: Richard David Precht
+  rating: 2.0
+  date_read: 2024-04-05
+
+- title: Stolen Focus
+  author: Johann Hari
+  rating: 3.0
+  date_read: 2024-03-30
+
+- title: Doctor Sleep
+  author: Stephen King
+  rating: 2.0
+  date_read: 2024-02-26
+
+- title: Elon Musk
+  author: Walter Isaacson
+  rating: 4.0
+  date_read: 2024-01-13
+
+- title: The Pathless Path
+  author: Paul Millerd
+  rating: 3.0
+  date_read: 2024-01-03
+
+- title: On the Shortness of Life
+  author: Seneca
+  rating: 3.0
+  date_read: 2023-12-20
+
+- title: Chip War
+  author: Chris Miller
+  rating: 4.0
+  date_read: 2023-12-18
+
+- title: How to Write Clearly
+  author: Tom Albrighton
+  rating: 2.5
+  date_read: 2023-12-04
+
+- title: Hard Land
+  author: Benedict Wells
+  rating: 3.0
+  date_read: 2023-12-02
+
+- title: Shop Class as Soulcraft
+  author: Matthew Crawford
+  rating: 3.0
+  date_read: 2023-10-10
+
+- title: What I talk about when I talk about running
+  author: Haruki Murakami
+  rating: 4.0
+  date_read: 2023-09-27
+
+- title: Das Parfum
+  author: Daniel Süskind
+  rating: 2.5
+  date_read: 2023-09-16
+
+- title: The Lost Symbol
+  author: Dan Brown
+  rating: 2.5
+  date_read: 2023-09-08
+
+- title: Breath
+  author: James Nestor
+  rating: 4.0
+  date_read: 2023-07-29
+
+- title: A Game of Thrones
+  author: George R.R. Martin
+  rating: 2.0
+  date_read: 2023-07-24
+
+- title: Der Gesang der Flusskrebse
+  author: Delia Owens
+  rating: 3.5
+  date_read: 2023-07-21
+
+- title: Range
+  author: David Epstein
+  rating: 3.0
+  date_read: 2023-05-21
+
+- title: Think
+  author: Simon Blackburn
+  rating: 3.0
+  date_read: 2023-04-28
+
+- title: The End of Everything
+  author: Katie Mack
+  rating: 4.0
+  date_read: 2023-03-11
+
+- title: The Da Vinci Code
+  author: Dan Brown
+  rating: 3.0
+  date_read: 2023-03-02
+
+- title: Die Vermessung der Welt
+  author: Daniel Kehlmann
+  rating: 2.0
+  date_read: 2023-02-09
+
+- title: Klara and the Sun
+  author: Kazuo Ishiguro
+  rating: 3.0
+  date_read: 2023-01-30
+
+- title: The Code Breaker
+  author: Walter Isaacson
+  rating: 3.0
+  date_read: 2023-01-16
+
+- title: Lessons in Chemistry
+  author: Bonnie Garmus
+  rating: 2.0
+  date_read: 2023-01-09
+
+- title: The Subtle Art of Not Giving a Fuck
+  author: Mark Manson
+  rating: 4.0
+  date_read: 2022-12-20
+
+- title: Meditations
+  author: Marcus Aurelius
+  rating: 3.0
+  date_read: 2022-12-02
+
+- title: QualityLand 2.0
+  author: Marc-Uwe Kling
+  rating: 3.0
+  date_read: 2022-11-30
+
+- title: Der Sommer der Blaubeeren
+  author: Mary Simses
+  rating: 2.0
+  date_read: 2022-10-13
+
+- title: Ein Hungerkünstler
+  author: Frank Kafka
+  rating: 3.0
+  date_read: 2022-10-09
+
+- title: Casino Royale
+  author: Ian Flemming
+  rating: 3.0
+  date_read: 2022-10-07
+
+- title: Der Wal und das Ende der Welt
+  author: John Ironmonger
+  rating: 5.0
+  date_read: 2022-09-27
+
+- title: QualityLand
+  author: Marc-Uwe Kling
+  rating: 3.0
+  date_read: 2022-09-09
+
+- title: Essentialism
+  author: Greg McKowen
+  rating: 5.0
+  date_read: 2022-09-07
+
+- title: Walden
+  author: Henry David Thoreau
+  rating: 3.0
+  date_read: 2022-08-14
+
+- title: Of Mice and Men
+  author: John Steinbeck
+  rating: 3.5
+  date_read: 2022-08-01
+
+- title: Keith Haring Journals
+  author: Keith Haring
+  rating: 2.5
+  date_read: 2022-07-07
+
+- title: The Love Hypothesis
+  author: Ali Hazelwood
+  rating: 3.0
+  date_read: 2022-05-13
+
+- title: The Plant-Based Athleste
+  author: Matt Fraizer
+  rating: 4.0
+  date_read: 2022-05-06
+
+- title: Crime and Punishment
+  author: Fydor Dostoevsky
+  rating: 4.0
+  date_read: 2022-04-25
 
 - title: Digital Minimalism
   author: Cal Newport
-  rating: 2.5
-  date_read: 2021-11-20
+  rating: 5.0
+  date_read: 2022-04-20
+
+- title: Anthropocene Reviewed
+  author: John Green
+  rating: 4.0
+  date_read: 2022-04-11
+
+- title: Packing for Mars
+  author: Mary Roach
+  rating: 4.0
+  date_read: 2022-03-20
+
+- title: Immune
+  author: Philipp Dettmer
+  rating: 4.5
+  date_read: 2022-02-06
+
+- title: Brave New World
+  author: Aldous Huxley
+  rating: 4.0
+  date_read: 2022-01-09
+
+- title: Why We Sleep
+  author: Matthew Walker
+  rating: 4.0
+  date_read: 2022-01-05
+  
+- title: Angels and Demons
+  author: Dan Brown
+  rating: 3.0
+  date_read: 2022-01-04

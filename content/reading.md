@@ -3,7 +3,7 @@ type: 'page'
 layout: 'reading'
 title: 'Reading'
 description: 'Every book I have read, am currently reading and plan on reading.'
-publishDate: '2025-11-28'
+publishDate: '2025-11-29'
 whatChanged: 'updated currently reading'
 ---
 ## Currently Reading

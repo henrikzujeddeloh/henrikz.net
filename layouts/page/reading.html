@@ -5,19 +5,41 @@
 </hr>
 {{ .Content }}
 
+{{- $counts := dict -}}
+{{- range .Site.Data.reading -}}
+{{- $yr := .date_read | time.Format "2006" -}}
+{{- $current := index $counts $yr | default 0 -}}
+{{- $counts = merge $counts (dict $yr (add $current 1)) -}}
+{{- end -}}
+
+{{- $lastYear := "" -}}
+{{- $first_header := 1 -}}
+{{- range sort .Site.Data.reading "date_read" "desc" -}}
+{{- $year := .date_read | time.Format "2006" -}}
+
+{{- if ne $year $lastYear -}}
+{{- if eq $first_header 1 | not -}}</div>{{ end }}
+<div
+    class="sticky top-0 flex items-center bg-creme-50 dark:bg-neutral-800 outline outline-bg-creme-50 dark:outline-neutral-800 gap-2 p-1 mb-2 mt-6">
+    <h3 class="text-2xl font-semibold !m-0">{{ $year }}</h3>
+    <p class="!m-0">({{ index $counts $year }} books)</p>
+</div>
+{{- $lastYear = $year -}}
+{{- $first_header = 0 -}}
 <div class="divide-y">
-    {{ range sort .Site.Data.reading "date_read" "desc" }}
+    {{- end -}}
+
     <div class="grid lg:grid-cols-6 grid-cols-1 gap-4 px-1 py-2 items-center">
-        {{ if .post }}
+        {{- if .post -}}
         <a class="col-span-2" href="{{ .post }}">{{ .title }}</a>
-        {{ else }}
+        {{- else -}}
         <div class="col-span-2">{{ .title }}</div>
-        {{ end }}
+        {{- end -}}
         <div class="col-span-2">{{ .author }}</div>
         {{ partial "rating.html" .rating }}
         <time class="justify-self-end">{{ .date_read }}</time>
     </div>
-    {{ end }}
+    {{- end -}}
 </div>
 
 <hr>

@@ -105,7 +105,7 @@ a {
 }
 
 p {
-    @apply mb-4;
+    @apply my-6 tracking-wide leading-7;
 }
 
 h1, h2, h3, h4 {
@@ -133,11 +133,11 @@ h4 {
 }
 
 main ul {
-    @apply list-disc pl-4 mb-2;
+    @apply list-disc pl-4 -mt-4 mb-2;
 }
 
 main ol {
-    @apply list-decimal pl-4 mb-2;
+    @apply list-decimal pl-4 -mt-4 mb-2;
 }
 
 

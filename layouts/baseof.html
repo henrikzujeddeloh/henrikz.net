@@ -15,6 +15,9 @@
     {{ with (templates.Defer (dict "key" "global")) }}
     {{ partial "css.html" . }}
     {{ end }}
+    {{ if .Param "math" }}
+    {{ partialCached "math.html" . }}
+    {{ end }}
 </head>
 
 <body class="max-w-screen-xl mx-auto font-display">

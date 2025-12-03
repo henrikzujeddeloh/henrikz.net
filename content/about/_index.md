@@ -8,7 +8,7 @@ publishDate = '2025-12-02'
 whatChanged = ''
 +++
 
-![](me.webp "90%")
+![](me.avif "90%")
 
 Hello and welcome to my little corner of the internet! I am currently living with my girlfriend in Heidelberg, Germany and am working on my PhD in the field of MRI physics. I train for and regularly participate in triathlons and other endurance sports. As I have a deep interest in technology and how things work, I enjoy spending free time working on little projects either out of interest or to improve a small part of daily life. Sometimes I may also be reading or dabbling in a little bit of photography.
 
@@ -18,6 +18,7 @@ If you happen share any of these interests or hobbies, then I think you are in t
 Other places you can find me:
 - [GitHub](https://github.com/henrikzujeddeloh)
 - [Strava](https://www.strava.com/athletes/58763016)
+- [OpenStreetMap](https://www.openstreetmap.org/user/henrikzj)
 
 ## Colophon
 A [colophon](https://en.wikipedi.org/wiki/Colophon_(publishing)) is brief description of the tools nd technologies used for a website.

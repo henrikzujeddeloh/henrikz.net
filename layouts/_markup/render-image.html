@@ -1,5 +1,12 @@
+{{ $small_width := 800 }}
+{{ $large_width := 1200 }}
 <figure>
-    <img src="{{ .Destination | safeURL }}" class="mx-auto" {{- with .PlainText }} alt="{{ . }}" {{ end -}} {{- with
-        .Title }} width="{{ . }}" {{ end -}} loading="lazy">
+    <img src="{{ strings.TrimSuffix (path.Ext .Destination) .Destination }}-{{ $large_width }}{{ path.Ext .Destination }}" 
+        srcset="{{ strings.TrimSuffix (path.Ext .Destination) .Destination }}-{{ $small_width }}{{ path.Ext .Destination }} {{ $small_width }}w, {{ strings.TrimSuffix (path.Ext .Destination) .Destination }}-{{ $large_width }}{{ path.Ext .Destination }} {{ $large_width }}w" 
+        sizes="(max-width: {{ $small_width }}px) 100vw, {{ $large_width }}px" 
+         class="mx-auto" 
+         {{- with .PlainText }} alt="{{ . }}" {{ end -}} 
+         {{- with .Title }} width="{{ . }}" {{ end -}} 
+         loading="lazy">
     {{- with .PlainText }}<figcaption class="text-center w-full mt-2">{{ . }}</figcaption>{{ end -}}
 </figure>

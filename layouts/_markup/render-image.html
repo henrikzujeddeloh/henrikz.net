@@ -1,9 +1,12 @@
-{{ $small_width := 800 }}
-{{ $large_width := 1200 }}
 <figure>
-    <img src="{{ strings.TrimSuffix (path.Ext .Destination) .Destination }}-{{ $large_width }}{{ path.Ext .Destination }}"
-        srcset="{{ strings.TrimSuffix (path.Ext .Destination) .Destination }}-{{ $small_width }}{{ path.Ext .Destination }} {{ $small_width }}w, {{ strings.TrimSuffix (path.Ext .Destination) .Destination }}-{{ $large_width }}{{ path.Ext .Destination }} {{ $large_width }}w"
-        sizes="(max-width: {{ $large_width }}) 100vw, 50vw" class="mx-auto" {{- with .PlainText }} alt="{{ . }}" {{ end
-        -}} {{- with .Title }} width="{{ . }}" {{ end -}} loading="lazy">
+    <picture>
+        <source media="(max-width: 767px)" srcset="{{ strings.TrimSuffix (path.Ext .Destination) .Destination }}-800{{ path.Ext .Destination }}">
+        <source media="(min-width: 768px)" srcset="{{ strings.TrimSuffix (path.Ext .Destination) .Destination }}-1200{{ path.Ext .Destination }}">
+        <img src="{{ strings.TrimSuffix (path.Ext .Destination) .Destination }}-1200{{ path.Ext .Destination }}"
+             class="mx-auto"
+             {{- with .PlainText }} alt="{{ . }}" {{ end -}}
+             {{- with .Title }} width="{{ . }}" {{ end -}}
+             loading="lazy">
+    </picture>
     {{- with .PlainText }}<figcaption class="text-center w-full mt-2">{{ . }}</figcaption>{{ end -}}
 </figure>

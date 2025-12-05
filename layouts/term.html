@@ -4,8 +4,8 @@
     <div>
         {{ range .Pages.GroupByPublishDate "2006" }}
         <div class="sticky top-0 flex items-center gap-2 bg-creme-50 dark:bg-neutral-800 p-1 mb-1">
-            <h3 class="text-2xl font-semibold">{{ .Key }}</h3>
-            <p>({{ .Pages | len }} posts)</p>
+            <h3 class="text-2xl font-semibold !m-0">{{ .Key }}</h3>
+            <p class="!m-0">({{ .Pages | len }} posts)</p>
         </div>
         {{ range .Pages }}
         {{ partial "card.html" . }}

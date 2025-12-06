@@ -28,7 +28,7 @@
     <div class="text-sm mr-1">Tagged with</div>
     {{ with .GetTerms "tags" }}
     {{ range . }}
-    <div class="outline rounded-sm outline-offset-1 text-sm cursor-pointer hover:bg-neutral-100 py-0 px-0.5 mr-2"
+    <div class="outline rounded-sm outline-offset-1 text-sm cursor-pointer dark:hover:bg-creme-950 hover:bg-creme-100 py-0 px-0.5 mr-2"
         onclick="window.location='{{ .Permalink }}'; event.stopPropagation();">#{{ .Title }}</a>
     </div>
     {{ end }}

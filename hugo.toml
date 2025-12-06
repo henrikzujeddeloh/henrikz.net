@@ -1,4 +1,4 @@
-baseURL = 'https://test.henrikz.net/'
+baseURL = 'https://henrikz.net/'
 languageCode = 'en-us'
 title = 'Henrik zu Jeddeloh'
 enableGitInfo = true

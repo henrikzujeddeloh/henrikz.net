@@ -1,3 +1,8 @@
+- title: Stillness is the Key
+  author: Ryan Holiday
+  rating: 4.0
+  date_read: 2025-12-07
+
 - title: East of Eden
   author: John Steinbeck
   rating: 2.5
@@ -11,7 +16,7 @@
 - title: The Snowman
   author: Jo Nesbo
   rating: 3.0
-  date_read: 2025-05-15
+  date_read: 2025-09-15
 
 - title: 4000 Weeks
   author: Oliver Burkeman
@@ -387,6 +392,11 @@
   author: Bill Bryson
   rating: 4.0
   date_read: 2021-06-18
+
+- title: Deep Work
+  author: Cal Newport
+  rating: 5
+  date_read: 2021-05-22
 
 - title: 21 Lessons for the 21st Century
   author: Yuval Noah Harari

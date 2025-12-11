@@ -5,7 +5,7 @@ layout = 'single'
 date = '2025-11-27'
 description = 'Find out more about me and this site.'
 publishDate = '2025-12-03'
-whatChanged = 'fixed formatting'
+whatChanged = 'added typeface to colophon and changed colophon to bullet-list'
 +++
 
 ![](me.avif "90%")
@@ -23,7 +23,11 @@ Other places you can find me:
 ## Colophon
 A [colophon](https://en.wikipedi.org/wiki/Colophon_(publishing)) is brief description of the tools nd technologies used for a website.
 
-This site is built using the [Hugo](https://gohugo.io/) static site generator. Styling and formatting of the HTML was done with the help of [TailwindCSS](https://tailwindcss.com/). Files are served by [Caddy](https://caddyserver.com/) on a [Hetzner](https://www.hetzner.com/) VPS. On [GitHub](https://github.com/henrikzujeddeloh/henrikz.net), you can find all the source code for this site.
+- This site is built using the [Hugo](https://gohugo.io/) static site generator. 
+- Styling and formatting of the HTML was done with the help of [TailwindCSS](https://tailwindcss.com/). 
+- Typeface: [Jost](https://indestructibletype.com/Jost.html)
+- Files are served by [Caddy](https://caddyserver.com/) on a [Hetzner](https://www.hetzner.com/) VPS. 
+- On [GitHub](https://github.com/henrikzujeddeloh/henrikz.net), you can find all the source code for this site.
 
 ## Disclaimers
 <br></br>

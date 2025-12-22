@@ -4,7 +4,7 @@
     {{ .Content }}
     <div>
         {{ range (where .Site.Pages "Params.layout" "post").GroupByPublishDate "2006" }}
-        <div class="sticky top-0 flex items-center bg-creme-50 dark:bg-neutral-800 outline outline-bg-creme-50 dark:outline-neutral-800 gap-2 p-1 mb-1">
+        <div class="sticky top-0 flex items-center bg-creme-50 dark:bg-neutral-800 outline outline-creme-50 dark:outline-neutral-800 gap-2 p-1 mb-1">
             <h3 class="text-2xl font-semibold !m-0">{{ .Key }}</h3>
             <p class="!m-0">({{ .Pages | len }} posts)</p>
         </div>

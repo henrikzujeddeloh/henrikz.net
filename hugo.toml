@@ -3,6 +3,7 @@ languageCode = 'en-us'
 title = 'Henrik zu Jeddeloh'
 enableGitInfo = true
 rssLimit = 24
+ignoreLogs = ['warning-goldmark-raw-html']
 
 [outputs]
   home = ['html']

@@ -4,17 +4,21 @@ layout: 'reading'
 title: 'Reading'
 description: 'Every book I have read, am currently reading and plan on reading.'
 publishDate: '2025-11-29'
-whatChanged: 'updated currently reading and reading list'
+whatChanged: 'updated reading list'
 ---
 ## Currently Reading
 <br></br>
-- I Who Have Never Known Men by Jacqueline Harpman
+- Enshittification by Cory Doctorow
 
 ## Reading List
 <br></br>
-- Red Mars by Kim Stanley Robinson
+- Ikigai by Hector Garcia and Francesc Miralles
 - Panikherz by Benjamin von Stuckrad-Barre
 - Windstärke 17 by Caroline Wahl
+- The City and its Uncertain Walls by Haruki Murakami
+- A Little Life by Hanya Yanagihara
+- The Changing World Order by Ray Dalio
+- A Man's Search for Meaning by Viktor Frankl
 
 ## Books Read
 

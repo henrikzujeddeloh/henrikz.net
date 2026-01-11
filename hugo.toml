@@ -6,7 +6,7 @@ rssLimit = 24
 ignoreLogs = ['warning-goldmark-raw-html']
 
 [outputs]
-  home = ['html']
+  home = ['html', 'rss']
   section = ['html']
   taxonomy = ['html']
   term = ['html']

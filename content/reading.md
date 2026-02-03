@@ -8,9 +8,9 @@ whatChanged: 'updated reading list'
 ---
 ## Currently Reading
 <br></br>
-- Enshittification by Cory Doctorow
 - Sapiens by Yuval Noah Harari
 - A Little Life by Hanya Yanagihara
+- Leben Retten! by Peter Singer
 
 ## Reading List
 <br></br>
@@ -18,7 +18,6 @@ whatChanged: 'updated reading list'
 - Panikherz by Benjamin von Stuckrad-Barre
 - Windstärke 17 by Caroline Wahl
 - The City and its Uncertain Walls by Haruki Murakami
-- Leben Retten! by Peter Singer
 - The Changing World Order by Ray Dalio
 - A Man's Search for Meaning by Viktor Frankl
 

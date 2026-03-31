@@ -5,6 +5,10 @@ enableGitInfo = true
 rssLimit = 24
 ignoreLogs = ['warning-goldmark-raw-html']
 
+[author]
+  name = 'Henrik zu Jeddeloh'
+  email = 'henrikz.net@pm.me'
+
 [outputs]
   home = ['html', 'rss']
   section = ['html']

@@ -5,8 +5,8 @@
     <description>{{ .Site.Params.description }}</description>
     <generator>Hugo</generator>
     <language>{{ .Site.LanguageCode }}</language>
-    {{ with .Site.Author.email }}<managingEditor>{{.}}</managingEditor>{{ end }}
-    {{ with .Site.Author.name }}<webMaster>{{.}}</webMaster>{{ end }}
+    {{ with .Site.Params.Author.email }}<managingEditor>{{.}}</managingEditor>{{ end }}
+    {{ with .Site.Params.Author.name }}<webMaster>{{.}}</webMaster>{{ end }}
     <atom:link href="{{ .Permalink }}index.xml" rel="self" type="application/rss+xml" />
 
     {{- $posts := where .Site.RegularPages "Section" "writing" -}}

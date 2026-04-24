@@ -133,7 +133,7 @@ h4 {
 }
 
 main li {
-    @apply tracking-wide leading-6
+    @apply tracking-wide leading-6 mb-2
 }
 
 main ul {
